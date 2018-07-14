@@ -1,0 +1,42 @@
+{
+  "editor.fontFamily": "monospace",
+  "editor.fontSize": 13,
+  "editor.rulers": [
+    100
+  ],
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+  "python.formatting.autopep8Args": [
+    "--max-line-length=100"
+  ],
+  "python.formatting.autopep8Path": "~/.local/bin/autopep8",
+  "python.formatting.provider": "autopep8",
+  "python.linting.enabled": true,
+  "python.linting.flake8Args": [
+    "--max-line-length=100"
+  ],
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "~/.local/bin/flake8",
+  "python.linting.pylintEnabled": false,
+  "python.pythonPath": "/usr/bin/python2.7",
+  "prettier.bracketSpacing": false,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 80,
+  "workbench.activityBar.visible": false,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "gitDecoration.ignoredResourceForeground": "#555",
+    }
+  },
+  "workbench.colorTheme": "Monokai"
+}
