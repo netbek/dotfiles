@@ -6,6 +6,7 @@
   ],
   "explorer.decorations.badges": true,
   "explorer.decorations.colors": true,
+  "files.trimTrailingWhitespace": true,
   "python.formatting.autopep8Args": [
     "--max-line-length=100"
   ],
@@ -38,5 +39,6 @@
       "gitDecoration.ignoredResourceForeground": "#555",
     }
   },
-  "workbench.colorTheme": "Monokai"
+  "workbench.colorTheme": "Monokai",
+  "workbench.sideBar.location": "right"
 }
