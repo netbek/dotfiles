@@ -6,6 +6,8 @@
   ],
   "explorer.decorations.badges": true,
   "explorer.decorations.colors": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "python.formatting.autopep8Args": [
     "--max-line-length=100"
