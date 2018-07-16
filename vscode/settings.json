@@ -1,6 +1,6 @@
 {
   "editor.fontFamily": "monospace",
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.rulers": [
     100
   ],
@@ -26,6 +26,9 @@
   "prettier.requireConfig": true,
   "prettier.singleQuote": true,
   "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
     "editor.formatOnSave": true
   },
   "[python]": {
