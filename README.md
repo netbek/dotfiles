@@ -28,11 +28,11 @@ link.
 The suggested workflow is as follows, but feel free to choose your own adventure:
 
 * To add a configuration not listed above, add a subdirectory to the dotfiles directory, add
-  one or more entries to `install.sh` as needed, then commit and push.
+  one or more entries to the install script as needed.
 
-* To remove a configuration, comment out the relevant entries in `install.sh`.
+* To remove a configuration, comment out the relevant entries in the install script.
 
-After making changes to the configuration files, remember to commit and push.
+Remember to commit and push any changes to the configuration files and install script in your fork.
 
 ## License
 
