@@ -20,7 +20,8 @@ cd ~/.dotfiles
 
 The install script creates symbolic links from the configuration files in the dotfiles directory
 to the user directory. If the install script encounters an existing configuration file in the user
-directory, then it makes a backup of the file (with .bak extension) before creating a symbolic link.
+directory, then it makes a backup of the file (with `.bak` extension) before creating a symbolic
+link.
 
 ## Usage
 
