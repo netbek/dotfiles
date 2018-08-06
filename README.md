@@ -27,7 +27,7 @@ link.
 
 The suggested workflow is as follows, but feel free to choose your own adventure:
 
-* To add a configuration not listed above, add a subdirectory to the dotfiles directory, add
+* To add a configuration not listed above, add a subdirectory to the dotfiles directory, and add
   one or more entries to the install script as needed.
 
 * To remove a configuration, comment out the relevant entries in the install script.
