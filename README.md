@@ -2,7 +2,7 @@
 
 ## Installation
 
-```
+```shell
 git clone https://github.com/netbek/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ./install.sh
