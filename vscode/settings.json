@@ -20,14 +20,14 @@
   "python.formatting.autopep8Args": [
     "--max-line-length=100"
   ],
-  "python.formatting.autopep8Path": "~/.local/bin/autopep8",
+  "python.formatting.autopep8Path": "/home/netbek/.local/bin/autopep8",
   "python.formatting.provider": "autopep8",
   "python.linting.enabled": true,
   "python.linting.flake8Args": [
     "--max-line-length=100"
   ],
   "python.linting.flake8Enabled": true,
-  "python.linting.flake8Path": "~/.local/bin/flake8",
+  "python.linting.flake8Path": "/home/netbek/.local/bin/flake8",
   "python.linting.pylintEnabled": false,
   "python.pythonPath": "/usr/bin/python2.7",
   "prettier.bracketSpacing": false,
