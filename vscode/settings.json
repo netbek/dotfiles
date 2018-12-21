@@ -57,5 +57,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "jupyter.appendResults": false,
   "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false
+  "telemetry.enableCrashReporter": false,
+  "window.menuBarVisibility": "default",
+  "window.titleBarStyle": "native"
 }
