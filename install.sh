@@ -23,14 +23,24 @@ function make_link () {
   ln -s $1 $2
 }
 
-info "Installing dotfiles ..."
+info "Installing programs ..."
+
+sudo apt update
+sudo apt install code r-base redshift-gtk
+
+success "Programs installed"
+
+info "Installing configurations ..."
 
 # R
 make_link "$DOTFILES_ROOT/R/Renviron" "$HOME/.Renviron"
 make_link "$DOTFILES_ROOT/R/Rprofile" "$HOME/.Rprofile"
 
+# Redshift
+make_link "$DOTFILES_ROOT/redshift/redshift.conf" "$HOME/.config/redshift.conf"
+
 # VS Code
 make_link "$DOTFILES_ROOT/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 make_link "$DOTFILES_ROOT/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 
-success "Dotfiles installed"
+success "Configurations installed"
