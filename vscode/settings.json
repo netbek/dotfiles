@@ -60,5 +60,11 @@
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.currentLine.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "beautify.language": {
+    "html": [
+      "htm",
+      "html"
+    ]
+  }
 }
