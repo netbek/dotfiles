@@ -66,5 +66,13 @@
       "htm",
       "html"
     ]
-  }
+  },
+  "errorLens.errorColor": "rgba(240,0,0,0.2)",
+  "errorLens.hintColor": "rgba(20,140,140,0.2)",
+  "errorLens.warningColor": "rgba(180,180,0,0.2)",
+  "errorLens.infoColor": "rgba(0,200,0,0.2)",
+  "errorLens.errorTextColor": "rgba(255,255,255,0.5)",
+  "errorLens.hintTextColor": "rgba(255,255,255,0.5)",
+  "errorLens.infoTextColor": "rgba(255,255,255,0.5)",
+  "errorLens.warningTextColor": "rgba(255,255,255,0.5)"
 }
