@@ -75,5 +75,6 @@
   "errorLens.hintTextColor": "rgba(255,255,255,0.5)",
   "errorLens.infoTextColor": "rgba(255,255,255,0.5)",
   "errorLens.warningTextColor": "rgba(255,255,255,0.5)",
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "files.eol": "\n"
 }
