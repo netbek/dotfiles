@@ -76,5 +76,6 @@
   "errorLens.infoTextColor": "rgba(255,255,255,0.5)",
   "errorLens.warningTextColor": "rgba(255,255,255,0.5)",
   "window.zoomLevel": 0,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "python.defaultInterpreterPath": "python3"
 }

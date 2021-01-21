@@ -26,7 +26,7 @@ function make_link () {
 info "Installing programs ..."
 
 sudo apt update
-sudo apt install code r-base redshift-gtk
+sudo apt install code r-base
 
 success "Programs installed"
 
@@ -35,9 +35,6 @@ info "Installing configurations ..."
 # R
 make_link "$DOTFILES_ROOT/R/Renviron" "$HOME/.Renviron"
 make_link "$DOTFILES_ROOT/R/Rprofile" "$HOME/.Rprofile"
-
-# Redshift
-make_link "$DOTFILES_ROOT/redshift/redshift.conf" "$HOME/.config/redshift.conf"
 
 # VS Code
 make_link "$DOTFILES_ROOT/vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
