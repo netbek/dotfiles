@@ -5,6 +5,7 @@
   ],
   "explorer.decorations.badges": true,
   "explorer.decorations.colors": true,
+  "files.eol": "\n",
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -28,12 +29,16 @@
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "/home/hein/.local/bin/flake8",
   "python.linting.pylintEnabled": false,
-  "python.pythonPath": "/usr/bin/python2.7",
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.pythonPath": "/usr/bin/python3",
+  "python.showStartPage": false,
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
     "editor.formatOnSave": true
@@ -75,7 +80,5 @@
   "errorLens.hintTextColor": "rgba(255,255,255,0.5)",
   "errorLens.infoTextColor": "rgba(255,255,255,0.5)",
   "errorLens.warningTextColor": "rgba(255,255,255,0.5)",
-  "window.zoomLevel": 0,
-  "files.eol": "\n",
-  "python.defaultInterpreterPath": "python3"
+  "window.zoomLevel": 0
 }
