@@ -1,22 +1,50 @@
 {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "breadcrumbs.enabled": false,
   "editor.fontFamily": "'Liberation Mono', monospace",
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 80,
   "editor.rulers": [
     100
   ],
+  "errorLens.errorColor": "rgba(240,0,0,0.2)",
+  "errorLens.errorTextColor": "rgba(255,255,255,0.5)",
+  "errorLens.hintColor": "rgba(20,140,140,0.2)",
+  "errorLens.hintTextColor": "rgba(255,255,255,0.5)",
+  "errorLens.infoColor": "rgba(0,200,0,0.2)",
+  "errorLens.infoTextColor": "rgba(255,255,255,0.5)",
+  "errorLens.warningColor": "rgba(180,180,0,0.2)",
+  "errorLens.warningTextColor": "rgba(255,255,255,0.5)",
   "explorer.decorations.badges": true,
   "explorer.decorations.colors": true,
   "files.eol": "\n",
   "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
+    "**/*.pyc": true,
     "**/.DS_Store": true,
-    "**/*.pyc": true
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "gitlens.advanced.telemetry.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "jupyter.appendResults": false,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
   "python.formatting.autopep8Args": [
     "--max-line-length=100"
   ],
@@ -29,56 +57,22 @@
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "/home/hein/.local/bin/flake8",
   "python.linting.pylintEnabled": false,
-  "python.defaultInterpreterPath": "/usr/bin/python3",
   "python.pythonPath": "/usr/bin/python3",
   "python.showStartPage": false,
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.formatOnSave": true
-  },
-  "editor.minimap.enabled": false,
-  "editor.minimap.maxColumn": 80,
-  "workbench.activityBar.visible": false,
-  "workbench.iconTheme": "vs-minimal",
-  "workbench.list.openMode": "doubleClick",
-  "workbench.colorCustomizations": {
-    "[Monokai]": {
-      "gitDecoration.ignoredResourceForeground": "#555",
-    }
-  },
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Monokai",
-  "workbench.startupEditor": "newUntitledFile",
-  "jupyter.appendResults": false,
-  "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
   "window.menuBarVisibility": "default",
   "window.titleBarStyle": "native",
-  "gitlens.advanced.telemetry.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "breadcrumbs.enabled": false,
-  "beautify.language": {
-    "html": [
-      "htm",
-      "html"
-    ]
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "gitDecoration.ignoredResourceForeground": "#555"
+    }
   },
-  "errorLens.errorColor": "rgba(240,0,0,0.2)",
-  "errorLens.hintColor": "rgba(20,140,140,0.2)",
-  "errorLens.warningColor": "rgba(180,180,0,0.2)",
-  "errorLens.infoColor": "rgba(0,200,0,0.2)",
-  "errorLens.errorTextColor": "rgba(255,255,255,0.5)",
-  "errorLens.hintTextColor": "rgba(255,255,255,0.5)",
-  "errorLens.infoTextColor": "rgba(255,255,255,0.5)",
-  "errorLens.warningTextColor": "rgba(255,255,255,0.5)",
-  "window.zoomLevel": 0
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.list.openMode": "doubleClick",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile"
 }
