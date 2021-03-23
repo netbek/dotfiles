@@ -44,13 +44,14 @@
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.currentLine.enabled": false,
   "jupyter.appendResults": false,
-  "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+  "jupyter.experiments.enabled": false,
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.experiments.enabled": false,
   "python.formatting.autopep8Args": [
     "--max-line-length=100"
   ],
   "python.formatting.autopep8Path": "~/.local/bin/autopep8",
   "python.formatting.provider": "autopep8",
-  "python.languageServer": "Pylance",
   "python.linting.enabled": true,
   "python.linting.flake8Args": [
     "--max-line-length=100"
@@ -58,7 +59,7 @@
   "python.linting.flake8Enabled": true,
   "python.linting.flake8Path": "~/.local/bin/flake8",
   "python.linting.pylintEnabled": false,
-  "python.pythonPath": "${workspaceFolder}/venv/bin/python",
+  "python.pythonPath": "/usr/bin/python3",
   "python.showStartPage": false,
   "python.venvFolders": [
     "${workspaceFolder}"
@@ -84,5 +85,6 @@
       "viewType": "jupyter.notebook.ipynb",
       "filenamePattern": "*.ipynb"
     }
-  ]
+  ],
+  "workbench.enableExperiments": false
 }
